@@ -11,7 +11,7 @@ def numpyToPoints(X):
     return rhino_points
 
 def kmeans(n):
-
+    #create dummy dataset
     X, y_true = make_blobs(n_samples=300, centers=4,
                         cluster_std=0.60, random_state=0)
 
